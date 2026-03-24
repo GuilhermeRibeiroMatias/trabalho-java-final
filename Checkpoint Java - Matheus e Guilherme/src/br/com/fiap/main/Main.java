@@ -32,10 +32,9 @@ public class Main {
         System.out.print("Digite o valor da mensalidade da academia: ");
         despesafamiliar.valorMensalidadeDaAcademia = scanner.nextDouble();
 
-        System.out.printf("Renda Familiar: %.3f%n", despesafamiliar.rendaFamiliar);
-        System.out.printf("Número de Moradores: %d%n", despesafamiliar.numeroDeMoradores);
-        System.out.printf("Total de Despesas: %.3f%n", despesafamiliar.calcularTotalDeDespesas());
-        System.out.printf("Renda Líquida: %.3f%n", despesafamiliar.calcularRendaFamiliarLiquida());
+        System.out.printf("Renda Familiar: R$ %.3f%n", despesafamiliar.rendaFamiliar);
+        System.out.printf("Total de Despesas: R$ %.3f%n", despesafamiliar.calcularTotalDeDespesas());
+        System.out.printf("Renda Líquida: R$ %.3f%n", despesafamiliar.calcularRendaFamiliarLiquida());
 
         scanner.close();
     }
