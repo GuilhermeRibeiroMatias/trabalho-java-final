@@ -36,6 +36,5 @@ public class Main {
         System.out.printf("Total de Despesas: R$ %.3f%n", despesafamiliar.calcularTotalDeDespesas());
         System.out.printf("Renda Líquida: R$ %.3f%n", despesafamiliar.calcularRendaFamiliarLiquida());
 
-        scanner.close();
     }
 }
