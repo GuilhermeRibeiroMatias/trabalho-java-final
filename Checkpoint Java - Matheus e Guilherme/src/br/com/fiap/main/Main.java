@@ -13,6 +13,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         DespesaFamiliar despesafamiliar = new DespesaFamiliar();
+        try{
 
         System.out.print("Digite a renda familiar: ");
         despesafamiliar.rendaFamiliar = scanner.nextDouble();
@@ -35,6 +36,9 @@ public class Main {
         System.out.printf("Renda Familiar: R$ %.3f%n", despesafamiliar.rendaFamiliar);
         System.out.printf("Total de Despesas: R$ %.3f%n", despesafamiliar.calcularTotalDeDespesas());
         System.out.printf("Renda Líquida: R$ %.3f%n", despesafamiliar.calcularRendaFamiliarLiquida());
+        } catch (Exeception e) {
+            System.out.println("O formato inserido está incorreto!");
+        }
 
     }
 }
