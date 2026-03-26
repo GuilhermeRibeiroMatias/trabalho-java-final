@@ -36,7 +36,7 @@ public class Main {
         System.out.printf("Renda Familiar: R$ %.3f%n", despesafamiliar.rendaFamiliar);
         System.out.printf("Total de Despesas: R$ %.3f%n", despesafamiliar.calcularTotalDeDespesas());
         System.out.printf("Renda Líquida: R$ %.3f%n", despesafamiliar.calcularRendaFamiliarLiquida());
-        } catch (Exeception e) {
+        } catch (Exception e) {
             System.out.println("O formato inserido está incorreto!");
         }
 
